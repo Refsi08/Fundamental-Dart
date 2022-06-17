@@ -14,7 +14,7 @@ void main(List<String> arguments) {
 
 //   print('===========================================================');
 
-// // perulangan menggunakan do while
+// perulangan menggunakan do while
 //   int x = 0;
 //   do {
 //     print('Perulangan Do While Ke ' + x.toString());

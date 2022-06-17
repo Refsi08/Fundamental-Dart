@@ -17,7 +17,7 @@ void main(List<String> arguments) {
   // }
 
   //kondisi cuman 2 kondisi buat dulu variable output
-  // if (number > 0) {/
+  // if (number > 0) {
   //   output = 'Adalah Bilangan Positif';
   // } else {
   //   output = 'Adalah Bilangan Negatif Nol';
