@@ -15,7 +15,7 @@ String say(String from, String message, {String to, String appName}) {
 }
 
 String say2(String from, String message,
-    [String to, String appName = 'Flutter']) {
+    [String to, String appName = 'Whatsapp']) {
   return from +
       ' say' +
       message +
@@ -46,7 +46,7 @@ void main(List<String> arguments) {
 
   print(say('Refsi', ' Hello',
       to: ' Erwin', appName: 'Flutter')); // menggunakan named parameter
-  print(say2('Refsi', ' Hello', ' Erwin', 'Flutter')); // positional
+  print(say2('Refsi', ' Hello', ' Erwin')); // positional
   print(f(6.0, 3.0)); // lambda expression
   print(doMatchOperator(10, 18, (a, b) => a * b)); // anonymous function
 }
